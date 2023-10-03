@@ -1,0 +1,45 @@
+
+
+body{
+color: #000;
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+background-image: linear-gradient(47deg, rgba(65, 204, 191, 0.85) 19.17%, #FFF 68.44%, #F5F5F5 102.04%);
+}
+
+.row {
+    
+    
+    justify-content: center;
+    
+}
+
+.texto-imagem{
+    font-size: x-large;
+    text-align: justify;
+
+    
+}
+h1{
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
+}
+.img-fluid{
+    border-radius: 10px;
+    
+      
+}
+
+.saiba-mais{
+    font-style:oblique;
+}
+
+
+
+
