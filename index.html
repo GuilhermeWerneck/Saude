@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="menu" class=" d-block navbar navbar-expand-lg navbar-light ">
+        <div class=" ml-3 container-fluid ">    
+           <img src="img/logo.png" width="100px" height="150px" class="img-fluid" alt="Logo"> 
+            <button class=" mr-2 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="menuNavBar">
+                <span class=" navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavBar">
+                <div id="ul-menu" class=" px-2 ml-auto mr-3 navbar-nav">
+                        <li class="li-bar"><a href="https://www.google.com.br/" class="mr-3 nav-link">Sobre </a></li>
+                        <li class="li-bar"><a href="#" class="mr-3 nav-link">Saúde</a></li>
+                        <li class="li-bar"><a href="#" class="mr-3 nav-link">Recomendação</a></li>
+                        <li class="li-bar "><a href="#" class="mr-3 nav-link">Cadastro</a></li>
+                </div>
+            </div>
+        </div>       
+        
+       <section class="home d-flex align-items-center h-75 ">
+        <div id="meio-pagina" class="container">
+            <div class=" norow d-flex align-items-center">
+                <div class=" pl-5 col-xl-5">
+                    <h1 class=" text-white">create a saude</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum unde possimus totam dolores, aliquam adipisci velit magni, odit nam deserunt non provident est odio et molestiae, ad exercitationem? Iste suscipit inventore aspernatur commodi recusandae, laborum nobis deserunt quis voluptate voluptatum fugiat quos voluptatem facere sequi sed ea modi, dolorem sit.</p>
+                    <button class="btn btn-success px-4" >Saiba mais</button>
+                </div>
+                <div class="col-xl-7 d-flex justify-content-end">
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                        </div>
+                      
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/fruta.jpg" alt="Los Angeles" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/povo corerndo.jpg" alt="Chicago" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/loiraAgua.jpg" alt="New York" class="d-block w-100">
+                          </div>
+                        </div>
+                      
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                          
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+       </section>
+      </nav>
+      <script type="module">
+         import * as bootstrap from 'bootstrap'
+
+        new bootstrap.Popover(document.getElementById('popoverButton'))
+      </script>
+</body>
+</html>

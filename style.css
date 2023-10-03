@@ -1,0 +1,24 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu{ 
+    background-image: linear-gradient(37deg, #72ADAD 21.89%, #FFF 76.69%);
+    height: 100vh;
+}
+
+#ul-menu a:hover { 
+   border-bottom: 1px solid black;
+}
+
+#meio-pagina p{ 
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#meio-pagina h1{ 
+    margin-bottom: 10px;
+    font-size: 60px;
+}
