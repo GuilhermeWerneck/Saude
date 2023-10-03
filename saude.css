@@ -16,7 +16,7 @@ background-image: linear-gradient(47deg, rgba(65, 204, 191, 0.85) 19.17%, #FFF 6
     
 }
 
-.texto-imagem{
+.texto{
     font-size: x-large;
     text-align: justify;
 
@@ -35,6 +35,8 @@ h2{
     
       
 }
+
+
 
 .saiba-mais{
     font-style:oblique;
