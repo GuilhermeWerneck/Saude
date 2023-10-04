@@ -1,17 +1,20 @@
 
 
 body{
-color: #000;
-font-family: Open Sans;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-background-image: linear-gradient(47deg, rgba(65, 204, 191, 0.85) 19.17%, #FFF 68.44%, #F5F5F5 102.04%);
+    color: #000;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    background-image: linear-gradient(47deg, rgba(65, 204, 191, 0.85) 19.17%, #FFF 68.44%, #F5F5F5 102.04%);
+    background-repeat: no-repeat;
+}
+
+#box-all{ 
+    width: 1000px;
 }
 
 .row {
-    
-    
     justify-content: center;
     
 }
@@ -35,13 +38,3 @@ h2{
     
       
 }
-
-
-
-.saiba-mais{
-    font-style:oblique;
-}
-
-
-
-
