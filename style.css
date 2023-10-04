@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 400;
+}
 #menu{ 
     background-image: linear-gradient(37deg, #72ADAD 21.89%, #FFF 76.69%);
     height: 100vh;
@@ -15,10 +20,15 @@
 
 #meio-pagina p{ 
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #meio-pagina h1{ 
     margin-bottom: 10px;
-    font-size: 60px;
+    font-size: 55px;
+    flex-wrap: nowrap;
+}
+
+#meio-pagina .sub-p{ 
+    font-size: 30px;
 }
