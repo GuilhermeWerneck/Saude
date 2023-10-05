@@ -10,8 +10,14 @@ body{
     background-repeat: no-repeat;
 }
 
-#box-all{ 
-    width: 1000px;
+
+
+#ul-menu a:hover { 
+    border-bottom: 3px solid green;
+ }
+
+.navbar-nav{
+    font-size: 25px;
 }
 
 .row {
