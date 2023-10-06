@@ -23,3 +23,7 @@ body{
 .navbar-nav{
     font-size: 25px;
 }
+
+card-body .card-img-left{
+    border-radius: 10px;
+}
