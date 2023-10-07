@@ -27,3 +27,7 @@ body{
 card-body .card-img-left{
     border-radius: 10px;
 }
+
+.img-rounded{
+    border-radius: 10px;
+}
