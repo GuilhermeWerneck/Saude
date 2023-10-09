@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="cadastroST.css">
+    <link rel="stylesheet" href="Login2.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="container d-flex align-items-center">
+        <form class="form-bt px-20">
+            <div class=" form-group ">
+              <h1 class="h1-form">Login</h1> 
+
+              <label for="exampleInputEmail1 " class="font-weight-bold">Seu Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+             
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1" class="font-weight-bold">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+            </div>
+          
+            <button type="button" class="btn btn-primary d-flex mx-auto " onclick="BTNenviar()">Enviar</button>
+            <p><a href="Cadastro.html" class="p-cadastro d-flex justify-content-center nav-link">Não possuo cadastro</a></p>
+            <p class="p-form d-flex justify-content-center text-muted font-weight-light" >Conecte-se támbem com: </p>
+            <div id="redes">
+                <div class="insta d-flex align-items-center">
+                <img src="img/logo/logo insta.png" width="40px" class="" alt="logo-insta">
+                <p class="p-rede px-3"  >Conectar com instagram</p>
+                
+            </div>
+            </div>
+          </form>
+    </div>
+<script src="JsLogin.js"></script>
+</body>
+</html>

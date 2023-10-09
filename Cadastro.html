@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="cadastroST.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container d-flex align-items-center">
+        <form class="form-bt px-20">
+            <div class=" form-group ">
+              <h1 class="h1-form">Dados Cadastrais</h1> 
+              <label for="exampleInputNome1 " class="font-weight-bold">Seu nome</label>
+              <input type="text" class="form-control" id="exampleInputNome1" aria-describedby="emailHelp" placeholder="Seu Nome">
+              <label for="exampleInputEmail1 " class="font-weight-bold">Seu Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+              <small id="emailHelp" class="form-text text-muted font-weight-light">Nunca vamos compartilhar seu email, com ninguém.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1" class="font-weight-bold">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+
+              <label for="exampleRPPassword" class="font-weight-bold">Repita sua Senha</label>
+              <input type="password" class="form-control" id="exampleRPPassword" placeholder="Repetir Senha">
+              <small id="AlertSenha" class="form-text text-muted font-weight-light ">Senhas diferentes!!!</small>
+            </div>
+          <div class="check d-flex justify-content-center ">
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+              <label class="custom-control-label" for="customRadioInline1">Masculino</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+              <label class="custom-control-label" for="customRadioInline2">Feminino</label>
+            </div>
+          </div>  
+            <button type="button" class="btn-form btn bg- d-flex mx-auto " onclick="BTNenviar()">Enviar</button>
+            <p class="p-form d-flex"><a href="Login.html" class=" d-flex mx-auto"> Possuo cadastro</a></p>
+          </form>
+    </div>
+<script src="JsCadastro.js"></script>
+</body>
+</html>

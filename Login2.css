@@ -1,0 +1,19 @@
+label{
+    margin: 2;
+}
+
+.p-rede{ 
+    margin: 0;
+}
+
+#redes{ 
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+}
+
+.p-cadastro{ 
+    margin-top: 5px;
+    color: blue;
+}
